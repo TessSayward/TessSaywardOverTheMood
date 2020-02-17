@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif; }
+
+body {
+  background-color: #fffeaa; }
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr; }
+  header img {
+    width: 35%;
+    padding: 1rem 0 0 1rem; }
+  header .button {
+    background-color: pink;
+    text-decoration: none;
+    text-transform: lowercase;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px; }
+  header .learn {
+    text-decoration: none;
+    text-transform: lowercase;
+    color: white; }
+  header nav {
+    grid-column: 2;
+    justify-self: end; }
+  header li {
+    list-style: none;
+    align-self: center;
+    display: inline-block; }
+
+.happy {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  grid-template-rows: 1fr;
+  margin: 0; }
+  .happy .benefits {
+    display: grid;
+    grid-template-rows: .0fr 1fr;
+    grid-template-columns: 1fr;
+    grid-column: 2;
+    padding: 1rem;
+    margin-left: -6rem; }
+  .happy img {
+    justify-self: center;
+    transform: rotate(-10deg);
+    grid-column: 1;
+    width: 70%;
+    margin: 0rem -4rem -5rem -12rem; }
+  .happy h1 {
+    color: #FF8D8D;
+    margin: 0;
+    padding: 0; }
+  .happy p {
+    color: #FF8D8D; }
+
+h1 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 30px; }
+
+.excited {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-rows: 1fr; }
+  .excited .features {
+    display: grid;
+    grid-template-rows: 0fr 1fr;
+    grid-template-columns: 1fr;
+    grid-column: 2;
+    padding: 1rem;
+    grid-row: 1; }
+  .excited img {
+    justify-self: center;
+    transform: rotate(10deg);
+    width: 70%;
+    grid-column: 3;
+    margin: -3rem; }
+
+.tired {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: 1fr; }
+  .tired .socialmedia {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 1fr;
+    grid-column: 3;
+    padding: 1rem; }
+  .tired img {
+    justify-self: center;
+    transform: rotate(-10deg);
+    grid-column: 2; }
+
+/*# sourceMappingURL=main.css.map */

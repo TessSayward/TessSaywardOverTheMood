@@ -1,0 +1,47 @@
+
+* {
+  box-sizing: border-box;
+  font-weight: 400;
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+body{
+	  background-color: #fffeaa;
+}
+
+header{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	
+
+	img{
+		width: 35%;
+		padding: 1rem 0 0 1rem;
+	}
+	
+	.button{
+		background-color: pink;
+		text-decoration: none;
+		text-transform: lowercase;
+		color: white;
+		border-radius: 10px;
+		padding: 5px 10px 5px 10px;
+	}
+	.learn{
+		text-decoration: none;
+		text-transform: lowercase;
+		color: white;
+	}
+	nav {
+  	grid-column: 2;
+  	justify-self: end;
+
+	}
+	li {
+  	list-style: none;
+ 	 align-self: center;
+ 	 display: inline-block;
+	}
+}
