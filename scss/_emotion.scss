@@ -1,6 +1,95 @@
 
 .happy{
 	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-rows: 1fr;
+	margin: 0;
+	.benefits{
+		display: grid;
+		grid-template-rows: .0fr 1fr;
+		grid-template-columns: 1fr;
+		grid-column: 3;
+		padding: 1rem;
+		/*margin-left: -9rem*/
+	
+
+	}
+	img{
+		width: 20%;
+	grid-column: 2;
+	grid-row: 1;
+	z-index: -1;
+	place-self: center;
+		/*ustify-self: center;
+		 transform: rotate(-10deg);
+		 grid-column: 1;
+		 width: 40%;
+		 z-index: 1;*/
+		/*margin:  0rem -4rem -5rem -12rem;*/
+
+	}
+	h1{
+		color: #FF8D8D;
+		margin: 0;
+		padding: 0;
+
+	}
+	p{
+		color: #FF8D8D;
+	}
+	
+
+}
+
+
+
+h1{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 30px;
+}
+
+.excited{
+	display: grid;
+	grid-template-columns: 1fr 2fr 2fr;
+	grid-template-rows: 1fr;
+	.features{
+		display: grid;
+		grid-template-rows: 0fr 1fr;
+		grid-template-columns: 1fr;
+		grid-column: 2;
+		padding: 1rem;
+		grid-row: 1;
+		text-align: right;
+		margin-right: -8rem;
+
+	}
+	img{
+		justify-self: center;
+		 transform: rotate(10deg);
+		 width: 70%;
+		 grid-column: 3;
+		 margin: -3rem;
+		 margin-right: -8rem;
+	}
+	h1{
+		color: #C954D6;
+		margin: 0;
+		padding: 0;
+
+	}
+	p{
+		color: #C954D6;
+	}
+}
+
+
+
+
+
+
+
+.tired{
+	display: grid;
 	grid-template-columns: 2fr 2fr 1fr;
 	grid-template-rows: 1fr;
 	margin: 0;
@@ -10,7 +99,7 @@
 		grid-template-columns: 1fr;
 		grid-column: 2;
 		padding: 1rem;
-		margin-left: -6rem
+		margin-left: -9rem
 	
 
 	}
@@ -30,54 +119,6 @@
 	}
 	p{
 		color: #FF8D8D;
-	}
-
-}
-
-
-h1{
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 30px;
-}
-.excited{
-	display: grid;
-	grid-template-columns: 1fr 2fr 2fr;
-	grid-template-rows: 1fr;
-	.features{
-		display: grid;
-		grid-template-rows: 0fr 1fr;
-		grid-template-columns: 1fr;
-		grid-column: 2;
-		padding: 1rem;
-		grid-row: 1;
-
-	}
-	img{
-		justify-self: center;
-		 transform: rotate(10deg);
-		 width: 70%;
-		 grid-column: 3;
-		 margin: -3rem;
-	}
-
-}
-
-.tired{
-	display: grid;
-	grid-template-columns: 1fr 1fr 2fr;
-	grid-template-rows: 1fr;
-	.socialmedia{
-		display: grid;
-		grid-template-rows: 1fr 2fr;
-		grid-template-columns: 1fr;
-		grid-column: 3;
-		padding: 1rem;
-
-	}
-	img{
-		justify-self: center;
-		 transform: rotate(-10deg);
-		 grid-column: 2;
 	}
 
 }
