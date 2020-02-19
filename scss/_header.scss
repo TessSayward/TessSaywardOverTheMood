@@ -41,7 +41,7 @@ header{
 		text-decoration: none;
 		text-transform: lowercase;
 		color: gold;
-		
+
 		justify-self: end;
 	}
 	nav {
@@ -53,5 +53,26 @@ header{
   	list-style: none;
  	 align-self: center;
  	 display: inline-block;
+	}
+}
+
+footer{
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 3fr 1fr;
+	background-color: #ffc230;
+	color: white;
+	padding: 15px;
+	.button{
+		color: white;
+		font-weight: bold;
+		grid-column: 1;
+		text-decoration:none;
+	}
+	.arrow{
+		grid-column: 3;
+		text-decoration: none;
+		color: white;
+		justify-self: end;
 	}
 }

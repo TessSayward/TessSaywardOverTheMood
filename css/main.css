@@ -40,6 +40,24 @@ header {
     align-self: center;
     display: inline-block; }
 
+footer {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 3fr 1fr;
+  background-color: #ffc230;
+  color: white;
+  padding: 15px; }
+  footer .button {
+    color: white;
+    font-weight: bold;
+    grid-column: 1;
+    text-decoration: none; }
+  footer .arrow {
+    grid-column: 3;
+    text-decoration: none;
+    color: white;
+    justify-self: end; }
+
 .happy {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
