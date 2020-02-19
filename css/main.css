@@ -20,16 +20,17 @@ header {
     align-self: center;
     text-decoration: none;
     text-transform: lowercase;
-    color: white;
+    color: gold;
     border-radius: 10px;
-    padding: 5px 10px 5px 10px; }
+    padding: 5px 10px 5px 10px;
+    font-weight: bold; }
   header .learn {
     grid-column: 1;
     grid-row: 1;
     align-self: center;
     text-decoration: none;
     text-transform: lowercase;
-    color: white;
+    color: gold;
     justify-self: end; }
   header nav {
     grid-column: 2;
@@ -41,7 +42,7 @@ header {
 
 .happy {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   margin: 0; }
   .happy .benefits {
@@ -51,18 +52,16 @@ header {
     grid-column: 3;
     padding: 1rem;
     /*margin-left: -9rem*/ }
-  .happy img {
-    width: 20%;
+  .happy .mockup {
     grid-column: 2;
-    grid-row: 1;
-    z-index: -1;
+    grid-row: 1; }
+  .happy .happyface {
     place-self: center;
-    /*ustify-self: center;
-     transform: rotate(-10deg);
-     grid-column: 1;
-     width: 40%;
-     z-index: 1;*/
-    /*margin:  0rem -4rem -5rem -12rem;*/ }
+    transform: rotate(-10deg);
+    width: 80%; }
+  .happy img {
+    width: 100%;
+    z-index: -1; }
   .happy h1 {
     color: #FF8D8D;
     margin: 0;
@@ -106,24 +105,28 @@ h1 {
   grid-template-columns: 2fr 2fr 1fr;
   grid-template-rows: 1fr;
   margin: 0; }
-  .tired .benefits {
+  .tired .socialmedia {
     display: grid;
     grid-template-rows: .0fr 1fr;
     grid-template-columns: 1fr;
     grid-column: 2;
-    padding: 1rem;
-    margin-left: -9rem; }
+    padding: 1rem; }
   .tired img {
     justify-self: center;
     transform: rotate(-10deg);
     grid-column: 1;
-    width: 70%;
-    margin: 0rem -4rem -5rem -12rem; }
+    width: 80%; }
   .tired h1 {
-    color: #FF8D8D;
+    color: #f7b542;
     margin: 0;
     padding: 0; }
-  .tired p {
-    color: #FF8D8D; }
+  .tired ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    place-content: center;
+    font-size: 3rem;
+    color: #f57c00;
+    text-decoration: none; }
 
 /*# sourceMappingURL=main.css.map */
